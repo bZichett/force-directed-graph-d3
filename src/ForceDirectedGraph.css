@@ -1,0 +1,26 @@
+.ForceDirectedGraph{
+  height: 100vh;
+  cursor: default;
+}
+
+.ForceDirectedGraph svg text {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.ForceDirectedGraph svg text::selection {
+  background: none;
+}
+
+.ForceDirectedGraph .node {
+  cursor: pointer;
+  fill: #ccc;
+  stroke: #fff;
+  stroke-width: 2px;
+}
+
+.ForceDirectedGraph .link {
+  /*stroke: #b2b2b2;*/
+  /*stroke-width: 1.5px;*/
+}

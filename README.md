@@ -17,7 +17,6 @@
 ## Explanation & Method
 
 ## Setup
-
     npm install
     npm run 
     
